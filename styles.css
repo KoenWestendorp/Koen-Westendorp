@@ -1,0 +1,387 @@
+@media screen and (max-width: 760px) {
+  * {
+    box-sizing: border-box; }
+
+  html body {
+    margin: 0px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: #484848; }
+
+  h1 h2 h3 p {
+    font-weight: 300; }
+
+  a {
+    text-decoration: none;
+    color: #3B99FC; }
+
+  a:hover {
+    color: #3B99FC;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out; }
+
+  a.no_hover {
+    opacity: 1;
+    -webkit-transition: none 0s none;
+    -moz-transition: none 0s none;
+    transition: none 0s none; }
+
+  .button {
+    border: none;
+    outline: none;
+    padding: 1rem 4.5rem;
+    border-radius: 2rem;
+    background: #3B99FC;
+    color: #ffffff;
+    margin: 1rem; }
+
+  .clearfix:before .clearfix:after {
+    content: " ";
+    display: table; }
+
+  .clearfix:after {
+    clear: both; }
+
+  .default_cursor:hover {
+    cursor: default; }
+
+  header {
+    text-align: center;
+    margin-top: 2.5rem; }
+
+  nav {
+    margin-top: -2rem;
+    font-size: 1.2rem; }
+    nav a {
+      text-decoration: none;
+      color: #484848;
+      opacity: 1; }
+    nav a:hover {
+      opacity: 0.7;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out; }
+    nav span {
+      font-weight: 200;
+      border-color: #A1A1A1; }
+
+  h1.logo {
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: #3B99FC; }
+
+  hr {
+    margin: 3rem auto;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: #A1A1A1; }
+
+  #post {
+    max-height: 500px;
+    margin-bottom: 50px; }
+    #post .post_image {
+      width: 720px;
+      max-width: 50%;
+      max-height: 500px; }
+    #post .post_text {
+      width: 40%;
+      margin: auto 5% auto 5%;
+      position: relative;
+      margin-top: auto; }
+    #post .left_text_float {
+      float: left; }
+    #post .right_text_float {
+      float: right; }
+
+  #contact {
+    background-color: #EEEEEE;
+    text-align: center;
+    min-height: 300px; }
+    #contact div.in_contact {
+      padding: 3rem;
+      margin-bottom: 1rem; }
+      #contact div.in_contact h1 {
+        color: #484848;
+        padding: 1rem auto;
+        font-weight: 500;
+        line-height: 27px; }
+      #contact div.in_contact h2 {
+        color: #484848;
+        font-weight: 300;
+        margin-top: -1rem;
+        margin-bottom: 3.5rem; }
+      #contact div.in_contact a:hover {
+        color: #ffffff;
+        opacity: 1; }
+    #contact footer {
+      margin-top: -1rem;
+      background-color: #3B99FC;
+      width: 100%;
+      height: 75px;
+      position: absolute; }
+      #contact footer div.social_links {
+        float: left;
+        color: #ffffff;
+        margin-left: 5%; }
+        #contact footer div.social_links a {
+          color: #ffffff;
+          padding-top: 5px; }
+      #contact footer div.copyright {
+        color: #ffffff;
+        position: relative;
+        float: right;
+        margin-right: 5%; } }
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box; }
+
+  html body {
+    margin: 0px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: #484848; }
+
+  h1 h2 h3 p {
+    font-weight: 300; }
+
+  a {
+    text-decoration: none;
+    color: #3B99FC; }
+
+  a:hover {
+    color: #3B99FC;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out; }
+
+  a.no_hover {
+    opacity: 1;
+    -webkit-transition: none 0s none;
+    -moz-transition: none 0s none;
+    transition: none 0s none; }
+
+  .button {
+    border: none;
+    outline: none;
+    padding: .8rem 1.4rem;
+    border-radius: 2rem;
+    background: #3B99FC;
+    color: #ffffff;
+    margin: 4px; }
+
+  .clearfix:before .clearfix:after {
+    content: " ";
+    display: table; }
+
+  .clearfix:after {
+    clear: both; }
+
+  .default_cursor:hover {
+    cursor: default; }
+
+  header {
+    text-align: center;
+    margin-top: 1rem; }
+
+  nav {
+    margin-top: 5px;
+    font-size: 1rem; }
+    nav a {
+      text-decoration: none;
+      color: #484848;
+      opacity: 1; }
+    nav a:hover {
+      opacity: 0.7;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out; }
+    nav span {
+      font-weight: 200;
+      border-color: #A1A1A1; }
+
+  h1.logo {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #3B99FC; }
+
+  hr {
+    margin: 1.5rem auto;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: #A1A1A1; }
+
+  section#post {
+    margin-bottom: 450px; }
+    section#post .post_image {
+      width: 100%;
+      max-width: 100%; }
+    section#post .post_text {
+      width: 90%;
+      margin: auto 5% auto 5%;
+      position: relative;
+      margin-top: auto; }
+
+  #contact {
+    background-color: #EEEEEE;
+    text-align: center; }
+    #contact div.in_contact h1 {
+      color: #484848;
+      padding: 1rem auto;
+      font-weight: 500;
+      line-height: 25px; }
+    #contact div.in_contact h2 {
+      color: #484848;
+      font-weight: 300;
+      margin-top: -1rem;
+      margin-bottom: 2.5rem; }
+    #contact div.in_contact a:hover {
+      color: #ffffff;
+      opacity: 1; }
+
+  footer {
+    margin-top: -1rem;
+    background-color: #3B99FC;
+    width: 100%;
+    height: 75px;
+    position: absolute; }
+    footer div.social_links {
+      float: left;
+      color: #ffffff;
+      margin-left: 5%; }
+      footer div.social_links a {
+        color: #ffffff;
+        padding-top: 5px; }
+    footer div.copyright {
+      color: #ffffff;
+      position: relative;
+      float: right;
+      margin-right: 5%; } }
+@media screen and (min-width: 760px) {
+  * {
+    box-sizing: border-box; }
+
+  html body {
+    margin: 0px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: #484848; }
+
+  h1 h2 h3 p {
+    font-weight: 300; }
+
+  a {
+    text-decoration: none;
+    color: #3B99FC; }
+
+  a:hover {
+    color: #3B99FC;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out; }
+
+  a.no_hover {
+    opacity: 1;
+    -webkit-transition: none 0s none;
+    -moz-transition: none 0s none;
+    transition: none 0s none; }
+
+  .button {
+    border: none;
+    outline: none;
+    padding: .8rem 1.4rem;
+    border-radius: 2rem;
+    background: #3B99FC;
+    color: #ffffff;
+    margin: 4px; }
+
+  .clearfix:before .clearfix:after {
+    content: " ";
+    display: table; }
+
+  .clearfix:after {
+    clear: both; }
+
+  .default_cursor:hover {
+    cursor: default; }
+
+  header {
+    text-align: center;
+    margin-top: 1rem; }
+
+  nav {
+    margin-top: 5px;
+    font-size: 1rem; }
+    nav a {
+      text-decoration: none;
+      color: #484848;
+      opacity: 1; }
+    nav a:hover {
+      opacity: 0.7;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out; }
+    nav span {
+      font-weight: 200;
+      border-color: #A1A1A1; }
+
+  h1.logo {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #3B99FC; }
+
+  hr {
+    margin: 1.5rem auto;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: #A1A1A1; }
+
+  #post {
+    margin-bottom: 50px; }
+    #post .post_image {
+      width: 80%;
+      margin: auto 5% auto 5%;
+      max-width: 80%; }
+    #post .post_text {
+      width: 90%;
+      margin: auto 5% auto 5%;
+      position: relative;
+      margin-top: auto; }
+
+  #contact {
+    background-color: #EEEEEE;
+    text-align: center; }
+    #contact div.in_contact h1 {
+      color: #484848;
+      padding: 1rem auto;
+      font-weight: 500;
+      line-height: 25px; }
+    #contact div.in_contact h2 {
+      color: #484848;
+      font-weight: 300;
+      margin-top: -1rem;
+      margin-bottom: 2.5rem; }
+    #contact div.in_contact a:hover {
+      color: #ffffff;
+      opacity: 1; }
+
+  footer {
+    margin-top: -1rem;
+    background-color: #3B99FC;
+    width: 100%;
+    height: 75px;
+    position: absolute; }
+    footer div.social_links {
+      float: left;
+      color: #ffffff;
+      margin-left: 5%; }
+      footer div.social_links a {
+        color: #ffffff;
+        padding-top: 5px; }
+    footer div.copyright {
+      color: #ffffff;
+      position: relative;
+      float: right;
+      margin-right: 5%; } }
+
+/*# sourceMappingURL=styles.css.map */
