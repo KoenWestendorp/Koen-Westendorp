@@ -581,6 +581,20 @@ $animation_time: 0.2s;
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   /* For landscape layouts only */
+
+  #post {
+		margin-bottom: 50px;
+		.post_image {
+			width: 90%;
+			margin: auto 5% auto 5%;
+			max-width: 90%;
+		}
+		.post_text {
+			width: 90%;
+			margin: auto 5% 30px 5%;
+			position: relative;
+		}
+	}
 }
 
 
