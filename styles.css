@@ -230,7 +230,10 @@
 
   #contact {
     background-color: #EEEEEE;
-    text-align: center; }
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px; }
     #contact div.in_contact h1 {
       color: #484848;
       padding: 1rem auto;
@@ -357,7 +360,8 @@
 
   #contact {
     background-color: #EEEEEE;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0px; }
     #contact div.in_contact h1 {
       color: #484848;
       padding: 1rem auto;
@@ -406,7 +410,14 @@
       margin: auto 5% 30px 5%;
       position: relative; }
 
+  #contact {
+    margin-top: 600px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+    #contact #in_contact {
+      padding-bottom: 0px; }
+
   footer {
-    margin: 300px auto 0px auto; } }
+    margin: 0px auto 0px auto; } }
 
 /*# sourceMappingURL=styles.css.map */

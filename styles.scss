@@ -7,14 +7,6 @@ $blue: #3B99FC;
 
 $animation_time: 0.2s;
 
-
-
-
-
-
-
-
-
 @media only screen and (min-width:960px){
   /* styles for browsers larger than 960px; */
   // == == == === Global Styles === == == == //
@@ -345,7 +337,10 @@ $animation_time: 0.2s;
 	// == == == === Contact Styles == == == == //
 	#contact {
 		background-color: $lightgrey;
+    height: 250px;
 		text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
 		div.in_contact {
 			h1 {
 				color: $black;
@@ -523,6 +518,7 @@ $animation_time: 0.2s;
 	#contact {
 		background-color: $lightgrey;
 		text-align: center;
+    margin-bottom: 0px;
 		div.in_contact {
 			h1 {
 				color: $black;
@@ -596,7 +592,16 @@ $animation_time: 0.2s;
 		}
 	}
 
+  #contact {
+    margin-top: 600px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    #in_contact {
+      padding-bottom: 0px;
+    }
+  }
+
   footer {
-    margin: 300px auto 0px auto;
+    margin: 0px auto 0px auto;
   }
 }
