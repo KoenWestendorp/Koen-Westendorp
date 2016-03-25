@@ -7,6 +7,37 @@ $blue: #3B99FC;
 
 $animation_time: 0.2s;
 
+footer {
+  margin-top: 0px;
+  background-color: $blue;
+  width: 100%;
+  height: 75px;
+  position: absolute;
+
+  div.social_links {
+    float: left;
+    color: $white;
+
+    margin-left: 5%;
+
+    a {
+      color: $white;
+      padding-top: 5px;
+    }
+  }
+
+  div.copyright {
+    color: $white;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (min-width:1440px){
+  /* styles for browsers larger than 1440px; */
+}
+
 @media only screen and (min-width:960px){
   /* styles for browsers larger than 960px; */
   // == == == === Global Styles === == == == //
@@ -125,7 +156,7 @@ $animation_time: 0.2s;
 		max-height: 500px;
 		margin-bottom: 50px;
 		.post_image {
-			width: 720px;
+			width: 1440px;;
 			max-width: 50%;
 			max-height: 500px;
 		}
@@ -152,7 +183,7 @@ $animation_time: 0.2s;
 		min-height: 300px;
 		div.in_contact {
 			padding: 3rem;
-			margin-bottom: 1rem;
+			margin-bottom: 0px;
 			h1 {
 				color: $black;
 				padding: 1rem auto;
@@ -177,7 +208,6 @@ $animation_time: 0.2s;
 
 		// == == == === Footer Styles === == == == //
 		footer {
-			margin-top: -1rem;
 			background-color: $blue;
 			width: 100%;
 			height: 75px;
@@ -204,10 +234,7 @@ $animation_time: 0.2s;
 		}
 	}
 }
-@media only screen and (min-width:1440px){
-  /* styles for browsers larger than 1440px; */
 
-}
 @media only screen and (min-width:2000px){
   /* for sumo sized (mac) screens */
 
@@ -604,4 +631,183 @@ $animation_time: 0.2s;
   footer {
     margin: 0px auto 0px auto;
   }
+}
+
+@media only screen and (min-width:481px) and (max-width:960px){
+  // == == == === Global Styles === == == == //
+	* {
+		box-sizing: border-box;
+	}
+
+	html body {
+		margin: 0px;
+		font-family: 'Helvetica Neue', Helvetica, sans-serif;
+		color: $black;
+	}
+
+	h1 h2 h3 p {
+		font-weight: 300;
+	}
+
+	a {
+		text-decoration: none;
+		color: $blue;
+	}
+
+	a:hover {
+		color: $blue;
+		opacity: 0.7;
+
+		-webkit-transition: opacity $animation_time ease-in-out;
+		-moz-transition: opacity $animation_time ease-in-out;
+		transition: opacity $animation_time ease-in-out;
+	}
+
+	a.no_hover {
+		opacity: 1;
+
+		-webkit-transition: none 0s none;
+		-moz-transition: none 0s none;
+		transition: none 0s none;
+	}
+
+	.button {
+		border: none;
+		outline: none;
+		padding: .8rem 1.4rem;
+		border-radius: 2rem;
+		background: $blue;
+		color: $white;
+		margin: 4px;
+	}
+
+	.clearfix:before .clearfix:after {
+		content: " ";
+		display: table;
+	}
+
+	.clearfix:after {
+		clear: both;
+	}
+
+
+	.default_cursor:hover {
+		cursor: default;
+	}
+
+	// == == == === Header Styles === == == == //
+  header {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  nav {
+    margin-top: -2rem;
+    font-size: 1.2rem;
+
+    a {
+      text-decoration: none;
+      color: $black;
+      opacity: 1;
+    }
+
+    a:hover {
+      opacity: 0.7;
+
+        -webkit-transition: opacity $animation_time ease-in-out;
+        -moz-transition: opacity $animation_time ease-in-out;
+        transition: opacity $animation_time ease-in-out;
+    }
+
+    span {
+      font-weight: 200;
+      border-color: $grey;
+    }
+  }
+
+  h1.logo {
+    font-weight: 300;
+    font-size: 3.0rem;
+    color: $blue;
+  }
+
+  hr {
+    margin: 3rem auto;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: $grey;
+  }
+
+
+	// == == == === Post Styles == == == == == //
+	#post {
+		margin-bottom: 50px;
+		.post_image {
+			width: 90%;
+			margin: auto 5% auto 5%;
+			max-width: 90%;
+		}
+		.post_text {
+			width: 90%;
+			margin: auto 5% auto 5%;
+			position: relative;
+			margin-top: auto;
+		}
+	}
+
+	// == == == === Contact Styles == == == == //
+	#contact {
+		background-color: $lightgrey;
+		text-align: center;
+    margin-top: 0px;
+    padding: 10px 10px 40px 10px;
+		div.in_contact {
+			h1 {
+				color: $black;
+				padding: 1rem auto;
+				font-weight: 500;
+				line-height: 25px;
+			}
+
+			h2 {
+				color: $black;
+				font-weight: 300;
+				margin-top: -1rem;
+				margin-bottom: 2.5rem;
+			}
+
+			a:hover {
+				color: $white;
+				opacity: 1;
+			}
+		}
+	}
+
+	// == == == === Footer Styles === == == == //
+	footer {
+		margin-top: 0px;
+		background-color: $blue;
+		width: 100%;
+		height: 75px;
+		position: absolute;
+
+		div.social_links {
+			float: left;
+			color: $white;
+
+			margin-left: 5%;
+
+			a {
+				color: $white;
+				padding-top: 5px;
+			}
+		}
+
+		div.copyright {
+			color: $white;
+			position: relative;
+			float: right;
+			margin-right: 5%;
+		}
+	}
 }
