@@ -7,6 +7,10 @@ $blue: #3B99FC;
 
 $animation_time: 0.2s;
 
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 footer {
   margin-top: 0px;
   background-color: $blue;
